@@ -7,6 +7,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public enum FilterType {
+//    Symbol filters
     PRICE_FILTER,
     PERCENT_PRICE,
     PERCENT_PRICE_BY_SIDE,
@@ -20,8 +21,11 @@ public enum FilterType {
     MAX_NUM_ICEBERG_ORDERS,
     MAX_POSITION,
     TRAILING_DELTA,
+    MAX_NUM_ORDER_AMENDS,
     MAX_NUM_ORDER_LISTS,
+//    Exchange Filters
     EXCHANGE_MAX_NUM_ORDERS,
     EXCHANGE_MAX_NUM_ALGO_ORDERS,
     EXCHANGE_MAX_NUM_ICEBERG_ORDERS,
+    EXCHANGE_MAX_NUM_ORDER_LISTS
 }
