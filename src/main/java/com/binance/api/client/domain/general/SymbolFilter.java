@@ -55,7 +55,7 @@ public class SymbolFilter {
    */
   private String stepSize;
 
-  // MIN_NOTIONAL
+  // NOTIONAL
 
   /**
    * Defines the minimum notional value allowed for an order on a symbol. An order's notional value is the price * quantity.

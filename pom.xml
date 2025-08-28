@@ -6,7 +6,7 @@
 
   <groupId>com.binance.api</groupId>
   <artifactId>binance-api-client</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <licenses>
     <license>
       <name>The MIT License</name>
@@ -53,8 +53,8 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
+          <source>11</source>
+          <target>11</target>
         </configuration>
       </plugin>
     </plugins>
